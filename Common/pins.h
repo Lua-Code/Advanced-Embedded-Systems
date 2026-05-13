@@ -2,6 +2,8 @@
 #define PINS_H
 
 #include <stdint.h>
+#include <stdbool.h>
+
 #include "hw_memmap.h"
 #include "gpio.h"
 

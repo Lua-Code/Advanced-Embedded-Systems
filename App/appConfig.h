@@ -25,4 +25,7 @@
 #define AUTO_PRESS_THRESHOLD_MS         300
 #define OBSTACLE_REVERSE_TIME_MS        500
 
+#define BUTTON_PORTF_ACTIVE_HIGH        0
+#define BUTTON_OTHERWISE_ACTIVE_HIGH    1
+
 #endif

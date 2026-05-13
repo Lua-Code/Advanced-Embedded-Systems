@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\App;.\Common;.\FSM;.\Drivers;.\Tasks</IncludePath>
+              <IncludePath>.\App;.\Common;.\FSM;.\Drivers;.\Tasks;C:\ti\TivaWare_C_Series-2.2.0.295\driverlib;C:\ti\TivaWare_C_Series-2.2.0.295\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
