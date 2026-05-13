@@ -1,0 +1,36 @@
+#ifndef EVENTS_H
+#define EVENTS_H
+
+#include <stdint.h>
+#include "types.h"
+
+typedef enum
+{
+    EVENT_NONE = 0,
+
+    EVENT_DRIVER_OPEN_PRESSED,
+    EVENT_DRIVER_OPEN_RELEASED,
+    EVENT_DRIVER_CLOSE_PRESSED,
+    EVENT_DRIVER_CLOSE_RELEASED,
+
+    EVENT_SECURITY_OPEN_PRESSED,
+    EVENT_SECURITY_OPEN_RELEASED,
+    EVENT_SECURITY_CLOSE_PRESSED,
+    EVENT_SECURITY_CLOSE_RELEASED,
+
+    EVENT_OPEN_LIMIT_PRESSED,
+    EVENT_CLOSED_LIMIT_PRESSED,
+
+    EVENT_OBSTACLE_DETECTED,
+
+    EVENT_CONFLICT_DETECTED
+} GateEventType;
+
+typedef struct
+{
+    GateEventType type;
+    EventSource source;
+    uint32_t timestampMs;
+} GateEvent;
+
+#endif
