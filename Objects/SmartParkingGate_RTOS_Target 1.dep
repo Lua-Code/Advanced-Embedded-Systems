@@ -1,21 +1,14 @@
 Dependencies for Project 'SmartParkingGate_RTOS', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6190000::V6.19::ARMCLANG
-F (.\App\main.c)(0x6A04B546)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+F (.\App\main.c)(0x6A04E365)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\TM4C123GH6PM.h)(0x6940AF68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63889D68)
-I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h)(0x6940AF60)
-I (Drivers\gpioDriver.h)(0x6A04AF02)
-I (Drivers\ledDriver.h)(0x6A04B135)
-I (Drivers\buttonDriver.h)(0x6A04B25E)
-F (.\App\basic_io.c)(0x699216DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/basic_io.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63889D68)
-I (App\consoleprint.h)(0x699216DF)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
-I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -35,12 +28,54 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portab
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
-F (.\App\consoleprint.c)(0x699216DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/consoleprint.o -MD)
+I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h)(0x6940AF60)
+I (App\appConfig.h)(0x6A04D562)
+I (Drivers\gpioDriver.h)(0x6A04AF02)
+I (Drivers\ledDriver.h)(0x6A04B135)
+I (FSM\gateStateMachine.h)(0x6A04D406)
+I (Common\types.h)(0x6A04AAC0)
+I (Common\events.h)(0x6A04AADC)
+I (RTOS\rtosObjects.h)(0x6A04B870)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h)(0x67E5270A)
+I (Tasks\inputTask.h)(0x6A04D782)
+I (Tasks\gateControlTask.h)(0x6A04D3D3)
+I (Tasks\ledTask.h)(0x6A04D409)
+I (Tasks\safetyTask.h)(0x6A04E0C0)
+I (Tasks\statusTask.h)(0x6A04D4E9)
+F (.\App\basic_io.c)(0x699216DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/basic_io.o -MD)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63889D68)
+I (App\consoleprint.h)(0x699216DF)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_version.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_armclang.h)(0x6964BADE)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
+F (.\App\consoleprint.c)(0x699216DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/consoleprint.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\rt_sys.h)(0x63889D68)
 I (App\consoleprint.h)(0x699216DF)
-F (.\App\retarget.c)(0x699216DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/retarget.o -MD)
+F (.\App\retarget.c)(0x699216DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/retarget.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
@@ -53,11 +88,17 @@ I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
-F (.\App\appConfig.h)(0x6A04AEF1)()
+F (.\App\appConfig.h)(0x6A04D562)()
 F (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\rvmdk\driverlib.lib)(0x6940AF60)()
-F (.\FSM\gateStateMachine.c)(0x6A049A0C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gatestatemachine.o -MD)
-F (.\FSM\gateStateMachine.h)(0x6A049A14)()
-F (.\Drivers\buttonDriver.c)(0x6A04B1F7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/buttondriver.o -MD)
+F (.\FSM\gateStateMachine.c)(0x6A04D407)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gatestatemachine.o -MD)
+I (FSM\gateStateMachine.h)(0x6A04D406)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (Common\types.h)(0x6A04AAC0)
+I (Common\events.h)(0x6A04AADC)
+I (App\appConfig.h)(0x6A04D562)
+F (.\FSM\gateStateMachine.h)(0x6A04D406)()
+F (.\Drivers\buttonDriver.c)(0x6A04B1F7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/buttondriver.o -MD)
 I (Drivers\buttonDriver.h)(0x6A04B25E)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63889D68)
 I (Common\pins.h)(0x6A04B51C)
@@ -65,7 +106,7 @@ I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (App\hw_memmap.h)(0x699216DF)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h)(0x6940AF60)
 F (.\Drivers\buttonDriver.h)(0x6A04B25E)()
-F (.\Drivers\gpioDriver.c)(0x6A04B100)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpiodriver.o -MD)
+F (.\Drivers\gpioDriver.c)(0x6A04B100)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpiodriver.o -MD)
 I (Drivers\gpioDriver.h)(0x6A04AF02)
 I (Common\pins.h)(0x6A04B51C)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
@@ -74,7 +115,7 @@ I (App\hw_memmap.h)(0x699216DF)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h)(0x6940AF60)
 I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h)(0x6940AF60)
 F (.\Drivers\gpioDriver.h)(0x6A04AF02)()
-F (.\Drivers\ledDriver.c)(0x6A04B15B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/leddriver.o -MD)
+F (.\Drivers\ledDriver.c)(0x6A04B15B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/leddriver.o -MD)
 I (Drivers\ledDriver.h)(0x6A04B135)
 I (Common\pins.h)(0x6A04B51C)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
@@ -85,22 +126,224 @@ F (.\Drivers\ledDriver.h)(0x6A04B135)()
 F (.\Common\events.h)(0x6A04AADC)()
 F (.\Common\pins.h)(0x6A04B51C)()
 F (.\Common\types.h)(0x6A04AAC0)()
-F (.\Tasks\gateControlTask.c)(0x6A0481FD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gatecontroltask.o -MD)
-F (.\Tasks\gateControlTask.h)(0x6A048251)()
-F (.\Tasks\inputTask.c)(0x6A0481E2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/inputtask.o -MD)
-F (.\Tasks\inputTask.h)(0x6A0481F0)()
-F (.\Tasks\ledTask.c)(0x6A0481FD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/ledtask.o -MD)
-F (.\Tasks\ledTask.h)(0x6A048251)()
-F (.\Tasks\safetyTask.c)(0x6A0481FD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/safetytask.o -MD)
-F (.\Tasks\safetyTask.h)(0x6A048251)()
-F (.\Tasks\statusTask.c)(0x6A0481FD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/statustask.o -MD)
-F (.\Tasks\statusTask.h)(0x6A048251)()
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Source/clib_os.c)(0x67C84E74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/clib_os.o -MD)
+F (.\Tasks\gateControlTask.c)(0x6A04D408)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gatecontroltask.o -MD)
+I (Tasks\gateControlTask.h)(0x6A04D3D3)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_version.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_armclang.h)(0x6964BADE)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x67E5270A)
+I (Common\events.h)(0x6A04AADC)
+I (Common\types.h)(0x6A04AAC0)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63889D68)
+I (App\appConfig.h)(0x6A04D562)
+I (RTOS\rtosObjects.h)(0x6A04B870)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h)(0x67E5270A)
+I (FSM\gateStateMachine.h)(0x6A04D406)
+F (.\Tasks\gateControlTask.h)(0x6A04D3D3)()
+F (.\Tasks\inputTask.c)(0x6A04D918)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/inputtask.o -MD)
+I (Tasks\inputTask.h)(0x6A04D782)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_version.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_armclang.h)(0x6964BADE)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h)(0x67E5270A)
+I (App\appConfig.h)(0x6A04D562)
+I (Drivers\buttonDriver.h)(0x6A04B25E)
+I (RTOS\rtosObjects.h)(0x6A04B870)
+I (Common\types.h)(0x6A04AAC0)
+I (Common\events.h)(0x6A04AADC)
+F (.\Tasks\inputTask.h)(0x6A04D782)()
+F (.\Tasks\ledTask.c)(0x6A04D486)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/ledtask.o -MD)
+I (Tasks\ledTask.h)(0x6A04D409)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_version.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_armclang.h)(0x6964BADE)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
+I (App\appConfig.h)(0x6A04D562)
+I (Common\types.h)(0x6A04AAC0)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63889D68)
+I (RTOS\rtosObjects.h)(0x6A04B870)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h)(0x67E5270A)
+I (Common\events.h)(0x6A04AADC)
+I (Drivers\ledDriver.h)(0x6A04B135)
+F (.\Tasks\ledTask.h)(0x6A04D409)()
+F (.\Tasks\safetyTask.c)(0x6A04E388)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/safetytask.o -MD)
+I (Common\types.h)(0x6A04AAC0)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63889D68)
+I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\TM4C123GH6PM.h)(0x6940AF68)
+I (C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h)(0x6940AF60)
+I (Drivers\gpioDriver.h)(0x6A04AF02)
+I (Drivers\ledDriver.h)(0x6A04B135)
+I (Drivers\buttonDriver.h)(0x6A04B25E)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_version.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_armclang.h)(0x6964BADE)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
+I (App\basic_io.h)(0x699216DF)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x67E5270A)
+I (FSM\gateStateMachine.h)(0x6A04D406)
+I (Common\events.h)(0x6A04AADC)
+I (RTOS\rtosObjects.h)(0x6A04B870)
+F (.\Tasks\safetyTask.h)(0x6A04E0C0)()
+F (.\Tasks\statusTask.c)(0x6A04D51F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/statustask.o -MD)
+I (Tasks\statusTask.h)(0x6A04D4E9)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_version.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_armclang.h)(0x6964BADE)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
+I (App\appConfig.h)(0x6A04D562)
+I (Common\types.h)(0x6A04AAC0)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63889D68)
+I (RTOS\rtosObjects.h)(0x6A04B870)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h)(0x67E5270A)
+I (Common\events.h)(0x6A04AADC)
+F (.\Tasks\statusTask.h)(0x6A04D4E9)()
+F (.\RTOS\rtosObjects.c)(0x6A04B871)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/rtosobjects.o -MD)
+I (RTOS\rtosObjects.h)(0x6A04B870)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_version.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_armclang.h)(0x6964BADE)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h)(0x67E5270A)
+I (Common\types.h)(0x6A04AAC0)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63889D68)
+I (Common\events.h)(0x6A04AADC)
+I (App\appConfig.h)(0x6A04D562)
+F (.\RTOS\rtosObjects.h)(0x6A04B870)()
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Source/clib_os.c)(0x67C84E74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/clib_os.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -122,7 +365,7 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\includ
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h)(0x67E5270A)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x67E5270A)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c)(0x67E52708)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/cmsis_os2.o -MD)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c)(0x67E52708)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/cmsis_os2.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x6964BADE)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
@@ -134,7 +377,7 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-pr
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\RTOS2\Include\os_tick.h)(0x6964BADE)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -156,10 +399,10 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\includ
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x67E5270A)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_mpool.h)(0x67C1D3CE)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_os2.h)(0x67C84E74)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Source/os_systick.c)(0x6964BADE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/os_systick.o -MD)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Source/os_systick.c)(0x6964BADE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/os_systick.o -MD)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\RTOS2\Include\os_tick.h)(0x6964BADE)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -170,8 +413,16 @@ I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
+F (C:/Users/user/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.7.2/Source/retarget_io.c)(0x584E7E1E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/retarget_io.o -MD)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\rt_sys.h)(0x63889D68)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x51B6D5F6)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
-F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x550A65DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x550A65DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
@@ -183,11 +434,11 @@ I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c)(0x6800CA2A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/freertos_evr.o -MD)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c)(0x6800CA2A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/freertos_evr.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -199,12 +450,12 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-pr
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/croutine.c)(0x67E52708)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/croutine.o -MD)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/croutine.c)(0x67E52708)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/croutine.o -MD)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -225,13 +476,13 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\includ
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\croutine.h)(0x67E52708)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/event_groups.c)(0x67E52708)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/event_groups.o -MD)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/event_groups.c)(0x67E52708)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/event_groups.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -252,13 +503,13 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\includ
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\timers.h)(0x67E5270A)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\event_groups.h)(0x67E52708)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/list.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/list.o -MD)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/list.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/list.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -276,12 +527,12 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\includ
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x67E5270A)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F/port.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port.o -MD)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F/port.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port.o -MD)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -294,32 +545,6 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-pr
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x67E52708)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x67E52708)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x67E52708)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x67E5270A)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/MemMang/heap_4.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/heap_4.o -MD)
-I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
-I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63889D68)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
-I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
-I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
-I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
-I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
-I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_version.h)(0x6964BADE)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6964BADE)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_armclang.h)(0x6964BADE)
-I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
-I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x67E52708)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x67E52708)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x67E52708)
@@ -327,14 +552,40 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portab
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/queue.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/queue.o -MD)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/MemMang/heap_4.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/heap_4.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_version.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cmsis_armclang.h)(0x6964BADE)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x6964BADE)
+I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6D5F6)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6800CA2A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x67E52708)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/queue.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/queue.o -MD)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63889D68)
+I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
+I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -354,14 +605,14 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\includ
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x67E5270A)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x67E5270A)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/tasks.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/tasks.o -MD)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/tasks.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/tasks.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)
@@ -382,13 +633,13 @@ I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\includ
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x67E52708)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\timers.h)(0x67E5270A)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\stack_macros.h)(0x67E5270A)
-F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/timers.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/timers.o -MD)
+F (C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/timers.c)(0x67E5270A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./App -I ./Common -I ./FSM -I ./Drivers -I ./Tasks -I C:/ti/TivaWare_C_Series-2.2.0.295/driverlib -I C:/ti/TivaWare_C_Series-2.2.0.295/inc -I ./RTOS-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/timers.o -MD)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63889D68)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x67E52708)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63889D68)
 I (D:\Keil\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63889D68)
 I (RTE\RTOS\FreeRTOSConfig.h)(0x67FCCE16)
-I (RTE\_Target_1\RTE_Components.h)(0x6A04A3C7)
+I (RTE\_Target_1\RTE_Components.h)(0x6A04DEBC)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
 I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
 I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6964BADE)

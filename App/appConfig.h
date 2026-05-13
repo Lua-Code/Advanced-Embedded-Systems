@@ -15,12 +15,14 @@
 #define SAFETY_TASK_STACK_SIZE          128
 #define STATUS_TASK_STACK_SIZE          128
 
+#define ENABLE_STATUS_TASK              1
+
 #define GATE_EVENT_QUEUE_LENGTH         16
 
 #define BUTTON_DEBOUNCE_MS              30
 #define INPUT_TASK_PERIOD_MS            20
 #define LED_TASK_PERIOD_MS              50
-#define STATUS_TASK_PERIOD_MS           200
+#define STATUS_TASK_PERIOD_MS           500
 
 #define AUTO_PRESS_THRESHOLD_MS         300
 #define OBSTACLE_REVERSE_TIME_MS        500

@@ -1,10 +1,7 @@
-./objects/main.o: App\main.c \
-  C:\ti\TivaWare_C_Series-2.2.0.295\inc\TM4C123GH6PM.h \
-  D:\Keil\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  D:\Keil\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  D:\Keil\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+./objects/rtosobjects.o: RTOS\rtosObjects.c RTOS\rtosObjects.h \
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h \
   D:\Keil\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
   RTE\RTOS\FreeRTOSConfig.h RTE\_Target_1\RTE_Components.h \
   C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h \
   C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h \
@@ -23,12 +20,9 @@
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h \
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h \
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h \
+  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h \
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h \
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h \
-  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h App\appConfig.h \
-  Drivers\gpioDriver.h Drivers\ledDriver.h FSM\gateStateMachine.h \
-  Common\types.h Common\events.h RTOS\rtosObjects.h \
-  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h \
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h \
-  Tasks\inputTask.h Tasks\gateControlTask.h Tasks\ledTask.h \
-  Tasks\safetyTask.h Tasks\statusTask.h
+  Common\types.h D:\Keil\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  Common\events.h App\appConfig.h

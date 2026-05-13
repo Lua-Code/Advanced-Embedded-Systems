@@ -2,108 +2,87 @@
 
 #include <stdint.h>
 #include <stdbool.h>
+#include <stdio.h>
+
+#include "FreeRTOS.h"
+#include "task.h"
 
 #include "sysctl.h"
 
+#include "appConfig.h"
+
 #include "gpioDriver.h"
 #include "ledDriver.h"
-#include "buttonDriver.h"
 
-static void delayMs(uint32_t ms)
+#include "gateStateMachine.h"
+#include "rtosObjects.h"
+
+#include "inputTask.h"
+#include "gateControlTask.h"
+#include "ledTask.h"
+#include "safetyTask.h"
+#include "statusTask.h"
+
+static void systemInit(void)
 {
-    uint32_t i;
-    for (i = 0; i < ms * 4000; i++)
-    {
-        __asm(" NOP");
-    }
-}
-
-static void blinkGreen(uint32_t count)
-{
-    uint32_t i;
-
-    for (i = 0; i < count; i++)
-    {
-        ledDriverGreenOn();
-        ledDriverRedOff();
-        delayMs(150);
-        ledDriverAllOff();
-        delayMs(150);
-    }
-}
-
-static void blinkRed(uint32_t count)
-{
-    uint32_t i;
-
-    for (i = 0; i < count; i++)
-    {
-        ledDriverRedOn();
-        ledDriverGreenOff();
-        delayMs(150);
-        ledDriverAllOff();
-        delayMs(150);
-    }
-}
-
-static void blinkBoth(uint32_t count)
-{
-    uint32_t i;
-
-    for (i = 0; i < count; i++)
-    {
-        ledDriverGreenOn();
-        ledDriverRedOn();
-        delayMs(150);
-        ledDriverAllOff();
-        delayMs(150);
-    }
-}
-
-int main(void)
-{
- //   SysCtlClockSet(SYSCTL_SYSDIV_5 | SYSCTL_USE_PLL | SYSCTL_OSC_MAIN | SYSCTL_XTAL_16MHZ);
+    // SysCtlClockSet(SYSCTL_SYSDIV_1 | SYSCTL_USE_OSC | SYSCTL_OSC_MAIN | SYSCTL_XTAL_16MHZ); //doesnt work for some reaosn
 
     gpioDriverInit();
     ledDriverAllOff();
 
+    gateStateMachineInit();
+    rtosObjectsInit();
+}
+
+ static void createApplicationTasks(void)
+{
+     xTaskCreate(inputTask,
+                 "Input",
+                 INPUT_TASK_STACK_SIZE,
+                 NULL,
+                 INPUT_TASK_PRIORITY,
+                 NULL);
+
+    xTaskCreate(gateControlTask,
+                "GateCtrl",
+                GATE_CONTROL_TASK_STACK_SIZE,
+                NULL,
+                GATE_CONTROL_TASK_PRIORITY,
+                NULL);
+
+    xTaskCreate(ledTask,
+                "LED",
+                LED_TASK_STACK_SIZE,
+                NULL,
+                LED_TASK_PRIORITY,
+                NULL);
+
+    xTaskCreate(safetyTask,
+                "Safety",
+                SAFETY_TASK_STACK_SIZE,
+                NULL,
+                SAFETY_TASK_PRIORITY,
+                NULL);
+
+ #if ENABLE_STATUS_TASK
+     xTaskCreate(statusTask,
+                 "Status",
+                 STATUS_TASK_STACK_SIZE,
+                 NULL,
+                 STATUS_TASK_PRIORITY,
+                 NULL);
+ #endif
+ }
+
+int main(void)
+{
+    systemInit();
+
+    createApplicationTasks();
+
+    vTaskStartScheduler();
+
     while (1)
     {
-        if (buttonDriverIsDriverOpenPressed())
-        {
-            ledDriverGreenOn();
-            ledDriverRedOff();
-        }
-        else if (buttonDriverIsDriverClosePressed())
-        {
-            ledDriverGreenOff();
-            ledDriverRedOn();
-        }
-        else if (buttonDriverIsSecurityOpenPressed())
-        {
-            blinkGreen(2);
-        }
-        else if (buttonDriverIsSecurityClosePressed())
-        {
-            blinkRed(2);
-        }
-        else if (buttonDriverIsOpenLimitPressed())
-        {
-            blinkBoth(1);
-        }
-        else if (buttonDriverIsClosedLimitPressed())
-        {
-            blinkBoth(2);
-        }
-        else if (buttonDriverIsObstaclePressed())
-        {
-            blinkBoth(4);
-        }
-        else
-        {
-            ledDriverAllOff();
-        }
-
-        delayMs(20);
     }
 }
