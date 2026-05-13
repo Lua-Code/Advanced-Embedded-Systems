@@ -14,10 +14,10 @@
 #define RED_LED_PIN             GPIO_PIN_1
 
 #define DRIVER_OPEN_PORT        GPIO_PORTF_BASE
-#define DRIVER_OPEN_PIN         GPIO_PIN_4
+#define DRIVER_OPEN_PIN         GPIO_PIN_0
 
 #define DRIVER_CLOSE_PORT       GPIO_PORTF_BASE
-#define DRIVER_CLOSE_PIN        GPIO_PIN_5
+#define DRIVER_CLOSE_PIN        GPIO_PIN_4
 
 #define SECURITY_OPEN_PORT      GPIO_PORTE_BASE
 #define SECURITY_OPEN_PIN       GPIO_PIN_0

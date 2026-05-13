@@ -11,7 +11,11 @@
 
 static void delayMs(uint32_t ms)
 {
-    SysCtlDelay((SysCtlClockGet() / 3000) * ms);
+    uint32_t i;
+    for (i = 0; i < ms * 4000; i++)
+    {
+        __asm(" NOP");
+    }
 }
 
 static void blinkGreen(uint32_t count)
