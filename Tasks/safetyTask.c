@@ -52,5 +52,6 @@ void safetyTask(void *pvParameters) {
 				safetyTaskSendEvent(EVENT_OBSTACLE_DETECTED,SOURCE_SAFETY);
 			}
 		}
+		vTaskDelay(pdMS_TO_TICKS(10));
 	}
 }
