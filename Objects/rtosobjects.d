@@ -25,4 +25,4 @@
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h \
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h \
   Common\types.h D:\Keil\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  Common\events.h App\appConfig.h
+  Common\events.h App\appConfig.h Common\debugVars.h

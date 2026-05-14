@@ -1,5 +1,6 @@
 #include "rtosObjects.h"
 #include "appConfig.h"
+#include "debugVars.h"
 
 QueueHandle_t gateEventQueue = NULL;
 
@@ -29,8 +30,13 @@ GateState rtosObjectsGetGateState(void)
     GateState state;
 
     xSemaphoreTake(gateStateMutex, portMAX_DELAY);
+		debugMutexTakeCount++;
+	
     state = currentGateState;
+		debugLastStateRead = state;
+	
     xSemaphoreGive(gateStateMutex);
+		debugMutexGiveCount++;
 
     return state;
 }
@@ -38,8 +44,13 @@ GateState rtosObjectsGetGateState(void)
 void rtosObjectsSetGateState(GateState newState)
 {
     xSemaphoreTake(gateStateMutex, portMAX_DELAY);
+		debugMutexTakeCount++;
+	
     currentGateState = newState;
+		debugLastStateRead = newState;
+	
     xSemaphoreGive(gateStateMutex);
+		debugMutexGiveCount++;
 }
 
 ControlMode rtosObjectsGetControlMode(void)

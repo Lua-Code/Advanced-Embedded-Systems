@@ -485,6 +485,16 @@
               <FileType>5</FileType>
               <FilePath>.\Common\types.h</FilePath>
             </File>
+            <File>
+              <FileName>debugVars.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Common\debugVars.c</FilePath>
+            </File>
+            <File>
+              <FileName>debugVars.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Common\debugVars.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -26,4 +26,4 @@
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h \
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h \
   App\appConfig.h Drivers\buttonDriver.h RTOS\rtosObjects.h \
-  Common\types.h Common\events.h
+  Common\types.h Common\events.h Common\debugVars.h

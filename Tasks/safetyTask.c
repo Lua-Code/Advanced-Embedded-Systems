@@ -9,6 +9,7 @@
 #include "gpioDriver.h"
 #include "ledDriver.h"
 #include "buttonDriver.h"
+#include "debugVars.h"
 
 #include "FreeRTOS.h"
 #include "task.h"
@@ -19,16 +20,18 @@
 #include "gateStateMachine.h"
 #include "rtosObjects.h"
 
-static void safetyTaskSendEvent(GateEventType eventType,EventSource source)
+static void safetyTaskSendEvent(GateEventType eventType, EventSource source)
 {
-	GateEvent event;
-	
-	event.type = eventType;
-	event.source = source;
-	event.timestampMs = xTaskGetTickCount() * portTICK_PERIOD_MS;
-	
-	xQueueSend(gateEventQueue,&event,pdMS_TO_TICKS(20));
+    GateEvent event;
 
+    event.type = eventType;
+    event.source = source;
+    event.timestampMs = xTaskGetTickCount() * portTICK_PERIOD_MS;
+
+    if (xQueueSend(gateEventQueue, &event, pdMS_TO_TICKS(20)) == pdPASS)
+    {
+        debugQueueEventsSent++;
+    }
 }
 
 

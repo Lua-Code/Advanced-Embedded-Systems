@@ -7,6 +7,7 @@
 #include "events.h"
 #include "types.h"
 #include "appConfig.h"
+#include "debugVars.h"
 
 #include "rtosObjects.h"
 #include "gateStateMachine.h"
@@ -22,6 +23,9 @@ void gateControlTask(void *pvParameters)
     {
         if (xQueueReceive(gateEventQueue, &event, portMAX_DELAY) == pdTRUE)
         {
+						debugQueueEventsReceived++;
+						debugLastEventReceived = event.type;
+					
             newState = gateStateMachineHandleEvent(event);
 
             rtosObjectsSetGateState(newState);

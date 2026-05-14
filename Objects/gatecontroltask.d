@@ -26,6 +26,6 @@
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h \
   Common\events.h Common\types.h \
   D:\Keil\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h App\appConfig.h \
-  RTOS\rtosObjects.h \
+  Common\debugVars.h RTOS\rtosObjects.h \
   C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\semphr.h \
   FSM\gateStateMachine.h

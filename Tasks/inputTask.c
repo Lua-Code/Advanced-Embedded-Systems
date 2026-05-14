@@ -13,6 +13,7 @@
 #include "rtosObjects.h"
 #include "events.h"
 #include "types.h"
+#include "debugVars.h"
 
 #define BTN_DRIVER_OPEN_INDEX       0
 #define BTN_DRIVER_CLOSE_INDEX      1
@@ -32,7 +33,11 @@ static void inputTaskSendEvent(GateEventType eventType, EventSource source)
     event.source = source;
     event.timestampMs = xTaskGetTickCount() * portTICK_PERIOD_MS;
 
-    xQueueSend(gateEventQueue, &event, pdMS_TO_TICKS(10));
+		if (xQueueSend(gateEventQueue, &event, pdMS_TO_TICKS(10)) == pdTRUE)
+		{
+				debugQueueEventsSent++;
+				debugLastEventSent = eventType;
+		}
 }
 
 void inputTask(void *pvParameters)
@@ -89,22 +94,31 @@ void inputTask(void *pvParameters)
         {
             if (cur[i] && !prev[i])
             {
-                if (i == BTN_OPEN_LIMIT_INDEX)
-                {
-                    xSemaphoreGive(openLimitSemaphore);
-                }
-                else if (i == BTN_CLOSED_LIMIT_INDEX)
-                {
-                    xSemaphoreGive(closedLimitSemaphore);
-                }
-                else if (i == BTN_OBSTACLE_INDEX)
-                {
-                    xSemaphoreGive(obstacleSemaphore);
-                }
-                else
-                {
-                    inputTaskSendEvent(pressEvents[i], sources[i]);
-                }
+								if (i == BTN_OPEN_LIMIT_INDEX)
+								{
+										if (xSemaphoreGive(openLimitSemaphore) == pdTRUE)
+										{
+												debugOpenLimitSemaphoreCount++;
+										}
+								}
+								else if (i == BTN_CLOSED_LIMIT_INDEX)
+								{
+										if (xSemaphoreGive(closedLimitSemaphore) == pdTRUE)
+										{
+												debugClosedLimitSemaphoreCount++;
+										}
+								}
+								else if (i == BTN_OBSTACLE_INDEX)
+								{
+										if (xSemaphoreGive(obstacleSemaphore) == pdTRUE)
+										{
+												debugObstacleSemaphoreCount++;
+										}
+								}
+								else
+								{
+										inputTaskSendEvent(pressEvents[i], sources[i]);
+								}
             }
             else if (!cur[i] && prev[i])
             {

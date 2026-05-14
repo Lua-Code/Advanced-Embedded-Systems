@@ -8,6 +8,7 @@
 ".\objects\buttondriver.o"
 ".\objects\gpiodriver.o"
 ".\objects\leddriver.o"
+".\objects\debugvars.o"
 ".\objects\gatecontroltask.o"
 ".\objects\inputtask.o"
 ".\objects\ledtask.o"

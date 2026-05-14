@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\SmartParkingGate_RTOS.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\SmartParkingGate_RTOS.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6190004: Last Updated: Thu May 14 00:02:28 2026
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6190004: Last Updated: Thu May 14 18:35:14 2026
 <BR><P>
 <H3>Maximum Stack Usage =        324 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1453,8 +1453,8 @@ Global Symbols
 <P><STRONG><a name="[1d2]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, aeabi_memset4.o(.text), UNUSED)
 
 <P><STRONG><a name="[16e]"></a>__aeabi_memclr</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memclr.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateTask
-<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateStaticTask
+<BR><BR>[Called By]<UL><LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateStaticTask
+<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateTask
 </UL>
 
 <P><STRONG><a name="[1d3]"></a>__rt_memclr</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memclr.o(.text), UNUSED)
@@ -1467,8 +1467,8 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = strcmp
 </UL>
 <BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_open
-<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_numeric
 <LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_ctype
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_numeric
 </UL>
 
 <P><STRONG><a name="[1d4]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
@@ -1759,11 +1759,11 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 280 + Unknown Stack Size
 <LI>Call Chain = _initio &rArr; freopen &rArr; _freopen_locked &rArr; _fclose_internal &rArr; free &rArr; free_internal$concurrent &rArr; _mutex_release &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
-<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_SIGRTRED
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
 <LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;freopen
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;setvbuf
 <LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_SIGRTRED
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init_stdio_2
 </UL>
@@ -1772,9 +1772,9 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 240 + Unknown Stack Size
 <LI>Call Chain = _terminateio &rArr; _fclose_internal &rArr; free &rArr; free_internal$concurrent &rArr; _mutex_release &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_free
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_free
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
 <LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fclose_internal
 <LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
 </UL>
@@ -1820,8 +1820,8 @@ Global Symbols
 <P><STRONG><a name="[f5]"></a>free_internal$concurrent</STRONG> (Thumb, 98 bytes, Stack size 16 bytes, h1_free_threads.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = free_internal$concurrent &rArr; _mutex_release &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
 <LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_ProvideMemory
@@ -1891,8 +1891,8 @@ Global Symbols
 <P><STRONG><a name="[ef]"></a>setvbuf</STRONG> (Thumb, 104 bytes, Stack size 32 bytes, setvbuf_locked.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = setvbuf &rArr; _mutex_release &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_initio
 </UL>
@@ -1901,17 +1901,17 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 272 + Unknown Stack Size
 <LI>Call Chain = freopen &rArr; _freopen_locked &rArr; _fclose_internal &rArr; free &rArr; free_internal$concurrent &rArr; _mutex_release &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
 <LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_freopen_locked
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_initio
 </UL>
 
 <P><STRONG><a name="[103]"></a>_fopen$locked</STRONG> (Thumb, 100 bytes, Stack size 24 bytes, fopen_locked.o(.text), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
-<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
+<BR><BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
 <LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_freopen_locked
 <LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 <LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
@@ -1984,8 +1984,8 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[10e]"></a>malloc_internal$concurrent</STRONG> (Thumb, 130 bytes, Stack size 24 bytes, h1_alloc_threads.o(.text), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<BR><BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
 <LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Heap1_SizeAdjust
 <LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_Full
 </UL>
@@ -2004,8 +2004,8 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 184 + Unknown Stack Size
 <LI>Call Chain = _printf_char_file &rArr; _mutex_release &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
 <LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_common
 </UL>
 <BR>[Called By]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;printf
@@ -2061,8 +2061,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_SIGRTRED
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_SIGRTMEM
+<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_SIGRTMEM
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_SIGRTRED
 </UL>
 
 <P><STRONG><a name="[105]"></a>__rt_SIGRTRED_inner</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, defsig_rtred_inner.o(.text))
@@ -2076,7 +2076,7 @@ Global Symbols
 <P><STRONG><a name="[10b]"></a>__Heap_Initialize</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, h1_init_threads.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 224<LI>Call Chain = __Heap_Initialize &rArr; _mutex_initialize &rArr; xQueueCreateMutex &rArr; xQueueGenericCreate &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_init_alloc
 </UL>
@@ -2166,7 +2166,7 @@ Global Symbols
 <P><STRONG><a name="[118]"></a>__Heap_Finalize</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, h1_final_threads.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = __Heap_Finalize &rArr; _mutex_free &rArr; vQueueDelete &rArr; vPortFree &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_free
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_free
 </UL>
 <BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_terminate_alloc
 </UL>
@@ -2221,7 +2221,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_errno_addr
 </UL>
 
-<P><STRONG><a name="[86]"></a>_mutex_acquire</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, clib_os.o(.text._mutex_acquire))
+<P><STRONG><a name="[84]"></a>_mutex_acquire</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, clib_os.o(.text._mutex_acquire))
 <BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = _mutex_acquire &rArr; xQueueSemaphoreTake &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_thread_mode
@@ -2238,7 +2238,7 @@ Global Symbols
 <LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc_internal$concurrent
 </UL>
 
-<P><STRONG><a name="[84]"></a>_mutex_free</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, clib_os.o(.text._mutex_free))
+<P><STRONG><a name="[86]"></a>_mutex_free</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, clib_os.o(.text._mutex_free))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = _mutex_free &rArr; vQueueDelete &rArr; vPortFree &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vQueueDelete
@@ -2247,7 +2247,7 @@ Global Symbols
 <LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_Finalize
 </UL>
 
-<P><STRONG><a name="[85]"></a>_mutex_initialize</STRONG> (Thumb, 168 bytes, Stack size 24 bytes, clib_os.o(.text._mutex_initialize))
+<P><STRONG><a name="[83]"></a>_mutex_initialize</STRONG> (Thumb, 168 bytes, Stack size 24 bytes, clib_os.o(.text._mutex_initialize))
 <BR><BR>[Stack]<UL><LI>Max Depth = 224<LI>Call Chain = _mutex_initialize &rArr; xQueueCreateMutex &rArr; xQueueGenericCreate &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueCreateMutexStatic
@@ -2259,7 +2259,7 @@ Global Symbols
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_Initialize
 </UL>
 
-<P><STRONG><a name="[83]"></a>_mutex_release</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, clib_os.o(.text._mutex_release))
+<P><STRONG><a name="[85]"></a>_mutex_release</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, clib_os.o(.text._mutex_release))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = _mutex_release &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_thread_mode
@@ -2385,7 +2385,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;inputTask
 </UL>
 
-<P><STRONG><a name="[7c]"></a>gateControlTask</STRONG> (Thumb, 122 bytes, Stack size 24 bytes, gatecontroltask.o(.text.gateControlTask))
+<P><STRONG><a name="[7c]"></a>gateControlTask</STRONG> (Thumb, 150 bytes, Stack size 24 bytes, gatecontroltask.o(.text.gateControlTask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = gateControlTask &rArr; rtosObjectsSetActiveCommand &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
@@ -2401,7 +2401,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> main.o(.text.createApplicationTasks)
 </UL>
-<P><STRONG><a name="[140]"></a>gateStateMachineFinishReversing</STRONG> (Thumb, 76 bytes, Stack size 0 bytes, gatestatemachine.o(.text.gateStateMachineFinishReversing))
+<P><STRONG><a name="[140]"></a>gateStateMachineFinishReversing</STRONG> (Thumb, 86 bytes, Stack size 0 bytes, gatestatemachine.o(.text.gateStateMachineFinishReversing))
 <BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gateControlTask
 </UL>
 
@@ -2431,7 +2431,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gateControlTask
 </UL>
 
-<P><STRONG><a name="[192]"></a>gateStateMachineInit</STRONG> (Thumb, 144 bytes, Stack size 0 bytes, gatestatemachine.o(.text.gateStateMachineInit))
+<P><STRONG><a name="[192]"></a>gateStateMachineInit</STRONG> (Thumb, 154 bytes, Stack size 0 bytes, gatestatemachine.o(.text.gateStateMachineInit))
 <BR><BR>[Called By]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;systemInit
 </UL>
 
@@ -2448,7 +2448,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;systemInit
 </UL>
 
-<P><STRONG><a name="[7b]"></a>inputTask</STRONG> (Thumb, 374 bytes, Stack size 104 bytes, inputtask.o(.text.inputTask))
+<P><STRONG><a name="[7b]"></a>inputTask</STRONG> (Thumb, 444 bytes, Stack size 104 bytes, inputtask.o(.text.inputTask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 272<LI>Call Chain = inputTask &rArr; inputTaskSendEvent &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
@@ -2536,8 +2536,8 @@ Global Symbols
 <LI><a href="#[181]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
 <LI><a href="#[180]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
 </UL>
-<BR>[Called By]<UL><LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateTask
-<LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericCreate
+<BR>[Called By]<UL><LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericCreate
+<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateTask
 </UL>
 
 <P><STRONG><a name="[1a0]"></a>pvTaskIncrementMutexHeldCount</STRONG> (Thumb, 36 bytes, Stack size 4 bytes, tasks.o(.text.pvTaskIncrementMutexHeldCount))
@@ -2570,7 +2570,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;statusTask
 </UL>
 
-<P><STRONG><a name="[157]"></a>rtosObjectsGetGateState</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, rtosobjects.o(.text.rtosObjectsGetGateState))
+<P><STRONG><a name="[157]"></a>rtosObjectsGetGateState</STRONG> (Thumb, 102 bytes, Stack size 16 bytes, rtosobjects.o(.text.rtosObjectsGetGateState))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = rtosObjectsGetGateState &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueSemaphoreTake
@@ -2608,7 +2608,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gateControlTask
 </UL>
 
-<P><STRONG><a name="[13a]"></a>rtosObjectsSetGateState</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, rtosobjects.o(.text.rtosObjectsSetGateState))
+<P><STRONG><a name="[13a]"></a>rtosObjectsSetGateState</STRONG> (Thumb, 102 bytes, Stack size 16 bytes, rtosobjects.o(.text.rtosObjectsSetGateState))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = rtosObjectsSetGateState &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueSemaphoreTake
@@ -2675,9 +2675,9 @@ Global Symbols
 <P><STRONG><a name="[162]"></a>vListInitialise</STRONG> (Thumb, 46 bytes, Stack size 4 bytes, list.o(.text.vListInitialise))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = vListInitialise
 </UL>
-<BR>[Called By]<UL><LI><a href="#[15f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseTaskLists
-<LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericReset
+<BR>[Called By]<UL><LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericReset
 <LI><a href="#[161]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCheckForValidListAndQueue
+<LI><a href="#[15f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseTaskLists
 </UL>
 
 <P><STRONG><a name="[176]"></a>vListInitialiseItem</STRONG> (Thumb, 14 bytes, Stack size 4 bytes, list.o(.text.vListInitialiseItem))
@@ -2737,10 +2737,10 @@ Global Symbols
 <LI><a href="#[181]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
 <LI><a href="#[180]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
 </UL>
-<BR>[Called By]<UL><LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvDeleteTCB
-<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateTask
-<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vQueueDelete
+<BR>[Called By]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vQueueDelete
 <LI><a href="#[17d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvProcessReceivedCommands
+<LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvDeleteTCB
+<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateTask
 </UL>
 
 <P><STRONG><a name="[19a]"></a>vPortSetupTimerInterrupt</STRONG> (Thumb, 68 bytes, Stack size 0 bytes, port.o(.text.vPortSetupTimerInterrupt))
@@ -2752,7 +2752,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortFree
 </UL>
-<BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_free
+<BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_free
 </UL>
 
 <P><STRONG><a name="[182]"></a>vQueueWaitForMessageRestricted</STRONG> (Thumb, 100 bytes, Stack size 24 bytes, queue.o(.text.vQueueWaitForMessageRestricted))
@@ -2876,7 +2876,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[173]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseMutex
 <LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericCreate
 </UL>
-<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
+<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
 <LI><a href="#[18b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtosObjectsInit
 </UL>
 
@@ -2886,7 +2886,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[173]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseMutex
 <LI><a href="#[163]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericCreateStatic
 </UL>
-<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
+<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
 </UL>
 
 <P><STRONG><a name="[18c]"></a>xQueueGenericCreate</STRONG> (Thumb, 148 bytes, Stack size 40 bytes, queue.o(.text.xQueueGenericCreate))
@@ -2936,7 +2936,7 @@ Global Symbols
 <LI><a href="#[180]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
 </UL>
 <BR>[Called By]<UL><LI><a href="#[173]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseMutex
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
 <LI><a href="#[189]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtosObjectsGetActiveCommand
 <LI><a href="#[18a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtosObjectsGetControlMode
 <LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;safetyTaskSendEvent
@@ -2987,7 +2987,7 @@ Global Symbols
 <LI><a href="#[181]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
 <LI><a href="#[180]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
 </UL>
-<BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
 <LI><a href="#[189]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtosObjectsGetActiveCommand
 <LI><a href="#[18a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtosObjectsGetControlMode
 <LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtosObjectsGetGateState
@@ -3013,8 +3013,8 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 232 + Unknown Stack Size
 <LI>Call Chain = xTaskCreate &rArr; prvCreateTask &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateTask
-<LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddNewTaskToReadyList
+<BR>[Calls]<UL><LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddNewTaskToReadyList
+<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateTask
 </UL>
 <BR>[Called By]<UL><LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;createApplicationTasks
 </UL>
@@ -3092,10 +3092,10 @@ Global Symbols
 <P><STRONG><a name="[181]"></a>xTaskResumeAll</STRONG> (Thumb, 584 bytes, Stack size 40 bytes, tasks.o(.text.xTaskResumeAll))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[1a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvResetNextTaskUnblockTime
-<LI><a href="#[19d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskIncrementTick
+<BR>[Calls]<UL><LI><a href="#[19d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskIncrementTick
 <LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
 <LI><a href="#[15e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+<LI><a href="#[1a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvResetNextTaskUnblockTime
 </UL>
 <BR>[Called By]<UL><LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortFree
 <LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pvPortMalloc
@@ -3315,7 +3315,7 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gateStateMachineHandleEvent
 </UL>
 
-<P><STRONG><a name="[132]"></a>evaluatePressedButtons</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, gatestatemachine.o(.text.evaluatePressedButtons))
+<P><STRONG><a name="[132]"></a>evaluatePressedButtons</STRONG> (Thumb, 156 bytes, Stack size 16 bytes, gatestatemachine.o(.text.evaluatePressedButtons))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = evaluatePressedButtons &rArr; getPriorityCommand
 </UL>
 <BR>[Calls]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;closeGate
@@ -3328,7 +3328,7 @@ Local Symbols
 <LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handleButtonRelease
 </UL>
 
-<P><STRONG><a name="[143]"></a>handleButtonRelease</STRONG> (Thumb, 228 bytes, Stack size 32 bytes, gatestatemachine.o(.text.handleButtonRelease))
+<P><STRONG><a name="[143]"></a>handleButtonRelease</STRONG> (Thumb, 292 bytes, Stack size 32 bytes, gatestatemachine.o(.text.handleButtonRelease))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = handleButtonRelease &rArr; evaluatePressedButtons &rArr; getPriorityCommand
 </UL>
 <BR>[Calls]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;isReleaseOfActiveButton
@@ -3342,19 +3342,19 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gateStateMachineHandleEvent
 </UL>
 
-<P><STRONG><a name="[144]"></a>handleOpenLimit</STRONG> (Thumb, 90 bytes, Stack size 0 bytes, gatestatemachine.o(.text.handleOpenLimit))
+<P><STRONG><a name="[144]"></a>handleOpenLimit</STRONG> (Thumb, 100 bytes, Stack size 0 bytes, gatestatemachine.o(.text.handleOpenLimit))
 <BR><BR>[Called By]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gateStateMachineHandleEvent
 </UL>
 
-<P><STRONG><a name="[145]"></a>handleClosedLimit</STRONG> (Thumb, 72 bytes, Stack size 0 bytes, gatestatemachine.o(.text.handleClosedLimit))
+<P><STRONG><a name="[145]"></a>handleClosedLimit</STRONG> (Thumb, 82 bytes, Stack size 0 bytes, gatestatemachine.o(.text.handleClosedLimit))
 <BR><BR>[Called By]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gateStateMachineHandleEvent
 </UL>
 
-<P><STRONG><a name="[146]"></a>handleObstacle</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, gatestatemachine.o(.text.handleObstacle))
+<P><STRONG><a name="[146]"></a>handleObstacle</STRONG> (Thumb, 68 bytes, Stack size 0 bytes, gatestatemachine.o(.text.handleObstacle))
 <BR><BR>[Called By]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gateStateMachineHandleEvent
 </UL>
 
-<P><STRONG><a name="[134]"></a>stopGate</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, gatestatemachine.o(.text.stopGate))
+<P><STRONG><a name="[134]"></a>stopGate</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, gatestatemachine.o(.text.stopGate))
 <BR><BR>[Called By]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gateStateMachineHandleEvent
 <LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handleButtonRelease
 <LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;evaluatePressedButtons
@@ -3373,14 +3373,14 @@ Local Symbols
 <LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;evaluatePressedButtons
 </UL>
 
-<P><STRONG><a name="[136]"></a>openGate</STRONG> (Thumb, 66 bytes, Stack size 4 bytes, gatestatemachine.o(.text.openGate))
+<P><STRONG><a name="[136]"></a>openGate</STRONG> (Thumb, 84 bytes, Stack size 4 bytes, gatestatemachine.o(.text.openGate))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = openGate
 </UL>
 <BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handleButtonRelease
 <LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;evaluatePressedButtons
 </UL>
 
-<P><STRONG><a name="[137]"></a>closeGate</STRONG> (Thumb, 64 bytes, Stack size 4 bytes, gatestatemachine.o(.text.closeGate))
+<P><STRONG><a name="[137]"></a>closeGate</STRONG> (Thumb, 82 bytes, Stack size 4 bytes, gatestatemachine.o(.text.closeGate))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = closeGate
 </UL>
 <BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;handleButtonRelease
@@ -3420,7 +3420,7 @@ Local Symbols
 <LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;buttonDriverIsSecurityOpenPressed
 </UL>
 
-<P><STRONG><a name="[150]"></a>inputTaskSendEvent</STRONG> (Thumb, 58 bytes, Stack size 24 bytes, inputtask.o(.text.inputTaskSendEvent))
+<P><STRONG><a name="[150]"></a>inputTaskSendEvent</STRONG> (Thumb, 94 bytes, Stack size 24 bytes, inputtask.o(.text.inputTaskSendEvent))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = inputTaskSendEvent &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetTickCount
@@ -3429,7 +3429,7 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;inputTask
 </UL>
 
-<P><STRONG><a name="[18d]"></a>safetyTaskSendEvent</STRONG> (Thumb, 58 bytes, Stack size 24 bytes, safetytask.o(.text.safetyTaskSendEvent))
+<P><STRONG><a name="[18d]"></a>safetyTaskSendEvent</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, safetytask.o(.text.safetyTaskSendEvent))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = safetyTaskSendEvent &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetTickCount
@@ -3461,17 +3461,17 @@ Local Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetSchedulerState
 </UL>
-<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
-<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_initialize
 <LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perthread_libspace
 </UL>
 
 <P><STRONG><a name="[11e]"></a>is_thread_mode</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, clib_os.o(.text.is_thread_mode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = is_thread_mode
 </UL>
-<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
 </UL>
 
 <P><STRONG><a name="[125]"></a>stdout_putchar</STRONG> (Thumb, 16 bytes, Stack size 16 bytes, retarget_io.o(.text.stdout_putchar))
@@ -3596,9 +3596,9 @@ Local Symbols
 <P><STRONG><a name="[15d]"></a>prvAddNewTaskToReadyList</STRONG> (Thumb, 368 bytes, Stack size 16 bytes, tasks.o(.text.prvAddNewTaskToReadyList))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = prvAddNewTaskToReadyList &rArr; prvInitialiseTaskLists &rArr; vListInitialise
 </UL>
-<BR>[Calls]<UL><LI><a href="#[15f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseTaskLists
-<LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<BR>[Calls]<UL><LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
 <LI><a href="#[15e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+<LI><a href="#[15f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseTaskLists
 </UL>
 <BR>[Called By]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreateStatic
 <LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreate
@@ -3611,8 +3611,8 @@ Local Symbols
 <LI><a href="#[176]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInitialiseItem
 <LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateTask
-<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateStaticTask
+<BR>[Called By]<UL><LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateStaticTask
+<LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCreateTask
 </UL>
 
 <P><STRONG><a name="[15f]"></a>prvInitialiseTaskLists</STRONG> (Thumb, 142 bytes, Stack size 24 bytes, tasks.o(.text.prvInitialiseTaskLists))
@@ -3627,9 +3627,9 @@ Local Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 192 + Unknown Stack Size
 <LI>Call Chain = prvCreateTask &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseNewTask
-<LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortFree
+<BR>[Calls]<UL><LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortFree
 <LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pvPortMalloc
+<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseNewTask
 <LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreate
@@ -3679,10 +3679,10 @@ Local Symbols
 <P><STRONG><a name="[164]"></a>prvCheckTasksWaitingTermination</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, tasks.o(.text.prvCheckTasksWaitingTermination))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = prvCheckTasksWaitingTermination &rArr; prvDeleteTCB &rArr; vPortFree &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvDeleteTCB
-<LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uxListRemove
+<BR>[Calls]<UL><LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uxListRemove
 <LI><a href="#[160]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
 <LI><a href="#[15e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+<LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvDeleteTCB
 </UL>
 <BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIdleTask
 </UL>
@@ -3804,8 +3804,8 @@ Local Symbols
 <LI>Call Chain = _freopen_locked &rArr; _fclose_internal &rArr; free &rArr; free_internal$concurrent &rArr; _mutex_release &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_open
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_release
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_mutex_acquire
 <LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fclose_internal
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fseek
 </UL>
